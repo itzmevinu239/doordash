@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+   background-color:#270101;
+   justify-content: space-evenly;
+}
+.main-header a{
+    padding:15px;
+    margin: 20px;
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu-head{
+    margin: 20px;
+}
+.search-loc{
+    margin: 10px;
+}
+
+.search-loc input{
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.search-loc button{
+    background-color: rgb(141, 0, 0);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+
+
+
+
+.banner-container{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.banner2-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+    
+}
+
+.banner2-container img{
+    width: 100%;
+
+}
+
+.all-in-one{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.all-in-title{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.all-in-one h1 {    
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 200px;
+    color: rgb(0, 0, 0);
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.all-in-one p{
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eb1010;
+    width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+button{
+    padding-top: 20px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.btn1{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eb1010;
+    width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.banner2-container h3{
+    color: #eb1010;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.banner2-container h3 a{
+    color: #eb1010;
+    text-decoration: none;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.all-in-image img{
+    width: 100%;
+}
+
+
+.try-app{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.try-title{
+    margin-top: 180px;
+    text-align: center;
+    padding: 20px;
+   
+    
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+}
+
+.bottom-banner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one,.two, .three, .four, .five {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-banner{
+width: 100%;
+margin-top: 80px;
+padding-top: 50px;
+background-color:#191919;
+}
+
+.bottom-banner a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.bottom-banner h3{
+    color: #ffffff;
+    
+}
+.playstore{
+    width: 100%;
+    display: flex;
+    
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    background-color: #191919;
+    padding-left: 1000px;
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.main-footer{
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: #b6b6b6;
+    margin: 9px;
+}
+
+
+
+
+
